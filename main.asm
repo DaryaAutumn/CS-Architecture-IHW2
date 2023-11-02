@@ -7,7 +7,7 @@
 	endl
 	input_float(ft0)
 	
-	fmv.s fa0 ft0
+	fmv.d fa0 ft0
 	jal check
 	
 	mv t0 a0 # check result in t0
@@ -20,13 +20,13 @@
 	
 	# load parameters
 	# number
-	fmv.s fa0 ft0
+	fmv.d fa0 ft0
 	# accuracy
 	li a0 5
-	fcvt.s.w fa1 a0
-	li a1 100
-	fcvt.s.w fa2 a1
-	fdiv.s fa1 fa1 fa2
+	fcvt.d.w fa1 a0
+	li a1 1000000000
+	fcvt.d.w fa2 a1
+	fdiv.d fa1 fa1 fa2
 	
 	# calculate square root 
 	jal square_root
@@ -37,10 +37,10 @@
 	j exit_programm
 	
 	check_wrong: 
-	print_str("Oops! You've entered negative number, try again!")
+	print_str("Oops! You've entered a negative number, try again!")
 	
 	exit_programm:
 	endl
-	li a7 10 
-	ecall
+	
+	finish_programm
 

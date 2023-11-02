@@ -8,12 +8,12 @@ check: 	# fa0 - input parameter, number to check
 	
 	start_subprogramm
 	
-	fmv.s ft0 fa0
+	fmv.d ft0 fa0
 	
 	li a1 0
-  	fcvt.s.w fa1 a1
+  	fcvt.d.w fa1 a1
 	
-	fge.s a0 ft0 fa1
+	fge.d a0 ft0 fa1
 	
 	finish_subprogramm
 	
