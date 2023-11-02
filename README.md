@@ -82,6 +82,5 @@ $$x_{n+1} = \frac{1}{2}(x_n + \frac{a}{x_n})$$
 
 ## Конец отчета!
 
-![image](https://github.com/DaryaAutumn/CS-Architecture-IHW2/assets/72216853/013136f1-8c3f-4988-9342-35df667d48fd)
-
+![image](https://github.com/DaryaAutumn/CS-Architecture-IHW2/assets/72216853/1dcc69da-acef-450d-836e-de0db34a072e)
 
