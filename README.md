@@ -7,3 +7,28 @@
 $$x_{n+1} = \frac{1}{2}(x_n + \frac{a}{x_n})$$
 где $a$ - исходное число, $x_n$ и $x_{n+1}$ - члены убывающей последовательности, коротая быстро сходится к $\sqrt{a}$.
 ## Критерии
+### На оценку 4-5
+1. Приведено решение на ассемблере, вывод данных осуществляется на консоль, ввод - через клавиатуру.
+2. В программе присутствуют комментарии:
+   
+   ![image](https://github.com/DaryaAutumn/CS-Architecture-IHW2/assets/72216853/af9d5477-60b3-461f-86f6-3a5900da496d)
+   
+3. В программе используются подпрограммы [check](check.asm) и [square_root](square_root.asm)
+   
+4. Тестовое покрытие:
+   При корректном вводе числа:
+   
+   ![image](https://github.com/DaryaAutumn/CS-Architecture-IHW2/assets/72216853/ef1c3f8a-d0b1-4d73-8d4b-ab8511b6b7fa)  
+   ![image](https://github.com/DaryaAutumn/CS-Architecture-IHW2/assets/72216853/0653da97-c8e4-435c-8b76-98466752979f)  
+   ![image](https://github.com/DaryaAutumn/CS-Architecture-IHW2/assets/72216853/433d72e1-7f75-4ddc-b965-990fdb9b7043)
+   
+  При некорректном вводе числа (некорректным вводом считаются отрицательные числа, поскольку в задании нет оговорки о работе с комплексными числами):  
+  
+    ![image](https://github.com/DaryaAutumn/CS-Architecture-IHW2/assets/72216853/812ed15a-4165-4c8b-841a-b3c56d55729b)
+
+
+
+### На оценку 6-7
+### На оценку 8
+### На оценку 9
+### На оценку 10
